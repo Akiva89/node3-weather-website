@@ -8,7 +8,7 @@ const messageTwo = document.querySelector('#message-2')
 
 // messageOne.textContent = 'From javaScript'
 
-weatherForm.addEventListener('submit', (e) =>{
+weatherForm.addEventListener('submit', (e) =>{c
     e.preventDefault() //the browser is not refreshed when clicking on search button.
     const location = search.value
     messageOne.textContent = 'Loading...'
