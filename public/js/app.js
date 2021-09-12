@@ -1,3 +1,5 @@
+
+
 const weatherForm = document.querySelector('form') // the form label in the html file index.hbs
 const search = document.querySelector('input') // the form label in the html file index.hbs
 const messageOne = document.querySelector('#message-1') 
@@ -8,7 +10,7 @@ const messageTwo = document.querySelector('#message-2')
 
 // messageOne.textContent = 'From javaScript'
 
-weatherForm.addEventListener('submit', (e) =>{c
+weatherForm.addEventListener('submit', (e) =>{
     e.preventDefault() //the browser is not refreshed when clicking on search button.
     const location = search.value
     messageOne.textContent = 'Loading...'
