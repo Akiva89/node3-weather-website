@@ -7,7 +7,7 @@ const forecast = (latitude,longitude, callback) => {
         if (error) {
             callback('Unable to connect to the service!',undefined)
         } else if (response.body.error) {
-            callback('The values in the request are not specified correctly',undefined)
+            callback('The values in the request are not specified correctly!',undefined)
         } else {
             callback(undefined,{
                 temperature: response.body.current.temperature,
